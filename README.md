@@ -7,7 +7,7 @@
 
 # DezUI
 
-DezUI is a lightweight, minimalistic & elegant css framework for starting projects with a minimalist and elegant design and We focus on using CSS styles and 100% no use of JavaScript. Checkout https://dezui.github.io/dezui for documentation and details
+DezUI is a lightweight, minimalistic & elegant css framework for starting projects with a minimalist and elegant design and We focus on using CSS styles and 100% no use of JavaScript. Checkout https://github.com/dezui/dezui for documentation and details
 
 [![](/assets/images/dezui-web-preview.png)](https://dezui.github.io/dezui)
 [![](https://raw.githubusercontent.com/dezui/DezUI/stable/assets/images/dezui-web-preview.png)](https://dezui.github.io/dezui)
