@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="DezUI is a lightweight, minimalist & elegant UI to start a project with a minimalist and elegant design and We focus on the use of CSS styles and 100% without using JavaScript.">
+	<meta name="keywords" content="CSS, Framework, Minimalist, Elegant, Design, SCSS">
+	<meta name="author" content="Dzuhan Ramadhan">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Documentation - DezUI</title>
+
+	<link rel="stylesheet" href="/css/dezui.css">
+	<link rel="stylesheet" href="https://ghcdn.rawgit.org/dezui/DezUI/stable/css/core.css">
+	<link rel="stylesheet" href="/css/core.css">
+	<link rel="stylesheet" href="/css/docs.css">
+	<link rel="icon" href="/assets/main.svg">
+</head>
+
+<body>
+	<header>
+		<nav class="container">
+			<section class="navbar-section">
+				<a class="navbar-logo" href="/"><img src="/assets/main.svg" alt="">DezUI</a>
+			</section>
+			<section class="navbar-section"></section>
+			<section class="navbar-section">
+				<a href="https://github.com/DezUI/DezUI/stargazers"><img src="https://img.shields.io/github/stars/dezui/dezui?style=social" alt=""></a>
+				<a class="navbar-logo" href="https://github.com/dezui"><img src="/assets/github.svg" alt="Github"></a>
+			</section>
+		</nav>
+	</header>
+
+
+
+
+
+	<main class="">
+
+		<!-- INTRO -->
+		<section id="intro" class="container">
+			<div>
+				<h4 class="overview-title">Lightweight, Minimalist & Elegant Design</h4>
+				<a href="#summary" class="btn">Getting Started</a>
+			</div>
+		</section>
+
+		<hr class="dotted">
+
+		<!-- DOCS -->
+		<section id="docs" class="container container-tablet">
+
+			<!-- ANNOUNCEMENT -->
+			<!-- <div id="thanks-for">
+				<h5>Contributors</h5>
+				<p>Our maintainers devote their time, effort, and heart to ensure Chakra UI keeps getting better. Support us by donating to our collective. <a href="/contributor">Become a Contributor</a>.</p>
+				<br>
+				<div class="sponsors">
+					<div id="list-developer" class="list-contributors "></div>
+					<div id="list-sponsors" class="list-contributors "></div>
+				</div>
+			</div>
+
+			<hr class="dotted"> -->
+
+			<!-- SUMMARY -->
+			<div id="summary">
+				<h5>Summary</h5>
+				<p>DezUI is a lightweight, minimalistic & elegant css framework for starting projects with a minimalist and elegant design and We focus on using CSS styles and 100% no use of JavaScript.</p>
+				<br>
+				<div class="flex responsive">
+					<div class="contributor col" style="text-align: center;">
+						<h6>Lightweight</h6>
+						<p>Light as a feather & CSS file size only less than ~9KB</p>
+					</div>
+					<br>
+					<div class="col-margin"></div>
+					<div class="col" style="text-align: center;">
+						<h6>Elegant Design</h6>
+						<p>Reflects someone who wants to look professional and clean.</p>
+					</div>
+					<div class="col-margin"></div>
+					<br>
+					<div class="col" style="text-align: center;">
+						<h6>Easy to Use</h6>
+						<p>Quick to start with zero compiling or installing necessary.</p>
+					</div>
+				</div>
+			</div>
+
+			<hr class="dotted">
+
+			<!-- INSTALLATION -->
+			<div id="installation">
+				<h5>Installation</h5>
+				<p>There are 2 ways to get started with the DezUI framework in your project. You can install manually or from the CDN<!--  or using the package manager -->.</p>
+
+				<br>
+
+				<h6>Install manually</h6>
+				<p><a href="https://github.com/DezUI/DezUI/archive/refs/heads/stable.zip">Download the zip</a> and copy the code below. You can choose one of the following, between normal files or compressed files</p>
+				<pre><code><ol><li>&lt;link rel="stylesheet" href="/css/core.css"&gt;		&lt;!-- Main file --&gt;</li><li>&lt;link rel="stylesheet" href="/css/core.min.css"&gt;	&lt;!-- Comporessed file --&gt;</li></ol></code></pre>
+
+				<br>
+
+				<h6>Install from CDN</h6>
+				<p>This CDN is very convenient and saves local storage.<br><b>NB:</b> <u><i>In the use of local projects requires an internet network connection!</i></u></p>
+				<pre><code><ol><li>&lt;link rel="stylesheet" href="https://ghcdn.rawgit.org/dezui/DezUI/stable/css/core.css"&gt;</li><li>&lt;link rel="stylesheet" href="https://ghcdn.rawgit.org/dezui/DezUI/stable/css/core.min.css"&gt;</li></ol></code></pre>
+
+				<!-- <br>
+
+				<h6>Install with NPM</h6>
+				<pre><code>npm install dezui</code></pre>
+
+				<br>
+
+				<h6>Install with Bower</h6>
+				<pre><code>bower install dezui</code></pre> -->
+			</div>
+
+			<hr class="dotted">
+
+			<!-- TYPOGRAPHY -->
+			<div id="typography">
+				<h5>Typography</h5>
+				<p>All font size styles based on <code>rem</code> units. For our built-in font designs we used the <a href="https://fonts.google.com/specimen/DM+Serif+Display" target="_blank">DM Serif Display</a> (Serif), <a href="https://fonts.google.com/specimen/Raleway" target="_blank">Raleway</a> (Sans-serif) and <a href="https://fonts.google.com/specimen/JetBrains+Mono?category=Sans+Serif,Monospace&query=jet" target="_blank">JetBrains Mono</a> (Monospace) font families.</p>
+				<br>
+				<div class="example">
+					<div class="flex responsive">
+						<div class="col">
+							<h1>Heading</h1>
+							<h2>Heading</h2>
+							<h3>Heading</h3>
+							<h4>Heading</h4>
+							<h5>Heading</h5>
+							<h6>Heading</h6>
+						</div>
+						<div class="col">
+							<div class="fonts">
+								<h6>Font Family</h6>
+								<p class="dm-serif">DM Serif Display</p>
+								<p class="raleway">Raleway</p>
+								<p class="source-code-pro">Source Code Pro</p>
+							</div>
+							<br>
+							<h6>Paragraph</h6>
+							<p>Lorem ipsum dolor, sit amet <b>consectetur</b> adipisicing elit. Neque nemo deserunt, dignissimos magnam fuga, animi suscipit ipsa <i>eligendi</i> necessitatibus <a href="#typography">placeat</a> quasi, iusto voluptas debitis. Laboriosam <u>dolorum</u> quaerat nemo delectus est?</p>
+						</div>
+					</div>
+				</div>
+				<div class="code">
+					<pre><code><ol><li>&lt;h1&gt;Heading&lt;/h1&gt;</li><li>&lt;h2&gt;Heading&lt;/h2&gt;</li><li>&lt;h3&gt;Heading&lt;/h3&gt;</li><li>&lt;h4&gt;Heading&lt;/h4&gt;</li><li>&lt;h5&gt;Heading&lt;/h5&gt;</li><li>&lt;h6&gt;Heading&lt;/h6&gt;</li></ol></code></pre>
+				</div>
+			</div>
+
+			<hr class="dotted">
+
+			<!-- GRIDS -->
+			<div id="grids">
+				<h5>Grids</h5>
+				<p>We use a maximum of 12 grids. Grids will not be responsive before being assigned a <code>responsive</code> or <code>wrap</code> class, this class works when the screen size is <code>600px</code> which was initially flexible <code>row</code> change <code>col</code></p>
+
+				<br>
+
+				<div class="example flex column">
+					<div class="flex">
+						<div class="col-1 grid-example">ONE</div>
+						<div class="col-11 grid-example">ELEVEN</div>
+					</div>
+					<div class="flex">
+						<div class="col-2 grid-example">TWO</div>
+						<div class="col-10 grid-example">TEN</div>
+					</div>
+					<div class="flex">
+						<div class="col-3 grid-example">THREE</div>
+						<div class="col-9 grid-example">NINE</div>
+					</div>
+					<div class="flex">
+						<div class="col-4 grid-example">FOUR</div>
+						<div class="col-8 grid-example">EIGHT</div>
+					</div>
+					<div class="flex">
+						<div class="col-5 grid-example">FIVE</div>
+						<div class="col-7 grid-example">SEVEN</div>
+					</div>
+					<div class="flex">
+						<div class="col-6 grid-example">SIX</div>
+						<div class="col-6 grid-example">SIX</div>
+					</div>
+					<div class="flex responsive">
+						<div class="col-1 grid-example">ONE</div>
+						<div class="col-1 grid-example">ONE</div>
+						<div class="col-1 grid-example">ONE</div>
+						<div class="col-1 grid-example">ONE</div>
+						<div class="col-1 grid-example">ONE</div>
+						<div class="col-1 grid-example">ONE</div>
+						<div class="col-1 grid-example">ONE</div>
+						<div class="col-1 grid-example">ONE</div>
+						<div class="col-1 grid-example">ONE</div>
+						<div class="col-1 grid-example">ONE</div>
+						<div class="col-1 grid-example">ONE</div>
+						<div class="col-1 grid-example">ONE</div>
+					</div>
+				</div>
+				<div class="code">
+					<pre><code><ol><li>&lt;!-- Class "flex" default flex-direction: row --&gt;</li><li>&lt;div class="flex"&gt;</li><li>    &lt;div class="col"&gt;...&lt;/div&gt;	&lt;!-- "col" & "col-1" is the same thing --&gt;</li><li>    &lt;div class="col-1"&gt;...&lt;/div&gt;</li><li>&lt;/div&gt;</li><li></li><li>&lt;!-- Use class "row" after "flex" flex-direction: row --&gt;</li><li>&lt;div class="flex row"&gt;</li><li>    &lt;div class="col-5"&gt;...&lt;/div&gt;</li><li>    &lt;div class="col-7"&gt;...&lt;/div&gt;</li><li>&lt;/div&gt;</li><li></li><li>&lt;!-- Use class "column" for flex-direction: column --&gt;</li><li>&lt;div class="flex column"&gt;</li><li>    &lt;div class="col-4"&gt;...&lt;/div&gt;</li><li>    &lt;div class="col-8"&gt;...&lt;/div&gt;</li><li>&lt;/div&gt;</li><li></li><li>&lt;!-- Use class "responsive" for auto wrap (column) in breakpoints $phablet --&gt;</li><li>&lt;div class="flex responsive"&gt;</li><li>    &lt;div class="col-2"&gt;...&lt;/div&gt;</li><li>    &lt;div class="col-10"&gt;...&lt;/div&gt;</li><li>&lt;/div&gt;</li></ol></code></pre>
+				</div>
+			</div>
+
+			<hr class="dotted">
+
+			<div id="navbar">
+				<h5>Navbar</h5>
+				<p>We have 3 main styles for the navbar. For <code>navbar-logo</code> class has default css value for link <code>font-size: 2rem</code> for image inside <code> height: 3rem</code>.</p>
+				<div class="example">
+					<div class="flex column">
+						<div class="col">
+							<nav>
+								<section class="navbar-section">
+									<a class="navbar-logo" href="#navbar">Brand</a>
+									<a class="link" href="#navbar">Link 1</a>
+									<a class="link" href="#navbar">Link 2</a>
+									<a class="link" href="#navbar">Link 3</a>
+								</section>
+							</nav>
+						</div>
+						<div class="col">
+							<nav>
+								<section class="navbar-section">
+									<a class="navbar-logo" href="#navbar">Brand</a>
+								</section>
+								<section class="navbar-section">
+									<a href="#navbar">Link 1</a>
+									<a href="#navbar">Link 2</a>
+									<a href="#navbar">Link 3</a>
+								</section>
+							</nav>
+						</div>
+						<div class="col">
+							<nav>
+								<section class="navbar-section">
+									<a class="navbar-logo" href="#navbar">Brand</a>
+								</section>
+								<section class="navbar-section">
+									<a href="#navbar">Link 1</a>
+									<a href="#navbar">Link 2</a>
+									<a href="#navbar">Link 3</a>
+								</section>
+								<section class="navbar-section">
+									<a class="navbar-logo" href="https://github.com/dezui"><img src="/assets/github.svg" alt="Github"></a>
+								</section>
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="code">
+					<pre><code><ol><li>&lt;!-- Navbar 1 --&gt;</li><li>&lt;nav&gt;</li><li>    &lt;section class="navbar-section"&gt;</li><li>        &lt;a class="navbar-logo" href="/"&gt;Brand&lt;/a&gt;</li><li>        &lt;a href="#"&gt;Link 1&lt;/a&gt;</li><li>        &lt;a href="#"&gt;Link 2&lt;/a&gt;</li><li>        &lt;a href="#"&gt;Link 3&lt;/a&gt;</li><li>    &lt;/section&gt;</li><li>&lt;/nav&gt;</li><li></li><li>&lt;!-- Navbar 2 --&gt;</li><li>&lt;nav&gt;</li><li>    &lt;section class="navbar-section"&gt;</li><li>        &lt;a class="navbar-logo" href="/"&gt;Brand&lt;/a&gt;</li><li>    &lt;/section&gt;</li><li>    &lt;section class="navbar-section"&gt;</li><li>        &lt;a href="#"&gt;Link 1&lt;/a&gt;</li><li>        &lt;a href="#"&gt;Link 2&lt;/a&gt;</li><li>        &lt;a href="#"&gt;Link 3&lt;/a&gt;</li><li>    &lt;/section&gt;</li><li>&lt;/nav&gt;</li><li></li><li>&lt;!-- Navbar 3 --&gt;</li><li>&lt;nav&gt;</li><li>    &lt;section class="navbar-section"&gt;</li><li>        &lt;a class="navbar-logo" href="/"&gt;Brand&lt;/a&gt;</li><li>    &lt;/section&gt;</li><li>    &lt;section class="navbar-section"&gt;</li><li>        &lt;a href="#"&gt;Link 1&lt;/a&gt;</li><li>        &lt;a href="#"&gt;Link 2&lt;/a&gt;</li><li>        &lt;a class="navbar-logo" href="#"&gt;Link 3&lt;/a&gt;</li><li>    &lt;/section&gt;</li><li>    &lt;section class="navbar-section"&gt;</li><li>        &lt;a href="#"&gt;&lt;img src="/source/to/image" alt="#"&gt;&lt;/a&gt;</li><li>    &lt;/section&gt;</li><li>&lt;/nav&gt;</li></ol></code></pre>
+				</div>
+			</div>
+
+			<hr class="dotted">
+
+			<div id="lists">
+				<h5>Lists</h5>
+				<p>For unordered lists we use the usual style which is circle list and for ordered lists we use decimal style.</p>
+				<div class="example">
+					<div class="flex responsive">
+						<div class="col">
+							<ul>
+								<li>Example "unordered" list</li>
+								<li>Example "unordered" list
+									<ul>
+										<li>Example "unordered" list</li>
+									</ul>
+								</li>
+								<li>Example "unordered" list</li>
+							</ul>
+						</div>
+						<div class="col">
+							<ol>
+								<li>Example "ordered" list</li>
+								<li>Example "ordered" list
+									<ul>
+										<li>Example "ordered" list</li>
+									</ul>
+								</li>
+								<li>Example "ordered" list</li>
+							</ol>
+						</div>
+					</div>
+				</div>
+				<div class="code">
+					<pre><code><ol><li>&lt;ul&gt;</li><li>    &lt;li&gt;Item 1&lt;/li&gt;</li><li>    &lt;li&gt;</li><li>        Item 2</li><li>        &lt;ul&gt;</li><li>            &lt;li>Item 2.1&lt;/li&gt;</li><li>            &lt;li>Item 2.2&lt;/li&gt;</li><li>        &lt;/ul&gt;</li><li>     &lt;/li&gt;</li><li>    &lt;li&gt;Item 3&lt;/li&gt;</li><li>&lt;/ul&gt;</li><li></li><li>&lt;!-- Not support lists nested deeper than 2 levels --&gt;</li></ol></code></pre>
+				</div>
+			</div>
+
+			<hr class="dotted">
+
+			<div id="buttons">
+				<h5>Buttons</h5>
+				<p>DezUI styles buttons with two main styles, outlined and filled. These styles can easily be overwritten, and are there to provide a base for buttons. The default style is outlined, if you want to make it filled add a class <code>btn-fill</code>. And by default the text will be changed to Uppercase.</p>
+				<br>
+				<div class="example">
+					<div class="flex responsive">
+						<div class="col">
+							<div><button>Button Tag</button></div>
+							<br>
+							<div><input type="button" class="btn-fill" value="Input Button"></div>
+						</div>
+						<br>
+						<div class="col">
+							<p>This button is available by default, available with:<br><code>&lt;button&gt;button&lt;/button&gt;</code><br><code>&lt;input type="button | submit"&gt;</code><br><code>&lt;a class="btn"&gt;&lt;/a&gt;</code><br><code>&lt;a class="btn btn-fill"&gt;&lt;/a&gt;</code></p>
+						</div>
+					</div>
+				</div>
+				<div class="code">
+					<pre><code><ol><li>&lt;button&gt;Button&lt;/button&gt;</li><li>&lt;input type="button" value="Input Button"&gt;</li><li>&lt;input type="submit" placeholder="Input Submit"&gt;</li><li>&lt;a href="#" class="btn"&gt;Link&lt;/a&gt;</li></ol></code></pre>
+				</div>
+			</div>
+
+			<hr class="dotted">
+
+			<!-- Forms -->
+			<div id="forms">
+				<h5>Forms</h5>
+				<p>DezUI styles all common form elements with minimalist, clean styles</p>
+				<br>
+				<div class="example">
+					<form action="#">
+						<div class="flex responsive">
+							<div class="col">
+								<label for="name">Name</label>
+								<input class="" type="text" class="name" id="name" placeholder="Name" value="John Doe">
+							</div>
+							<div class="col-margin"></div>
+							<div class="col">
+								<label for="type">How do you know about us?</label>
+								<select id="type">
+									<option value="Select" disabled="disabled" selected="selected">Select</option>
+									<option value="Instagram">Instagram</option>
+									<option value="Twitter">Twitter</option>
+									<option value="Github">Github</option>
+									<option value="Website">Website</option>
+									<option value="Other">Other</option>
+								</select>
+							</div>
+						</div>
+						<textarea id="message" placeholder="Messages"></textarea>
+						<div class="flex">
+							<input type="submit">
+						</div>
+					</form>
+				</div>
+				<div class="code">
+					<pre><code><ol><li>&lt;form&gt;</li><li>    &lt;label for="..."&gt; ... &lt;label&gt;</li><li>    &lt;input type="text"&gt;</li><li>    &lt;select&gt;</li><li>        &lt;option value="..."&gt; ... &lt;/option&gt;</li><li>    &lt;/select&gt;</li><li>    &lt;textarea placeholder="..."&gt;&lt;/textarea&gt;</li><li>&lt;/form&gt;</li></ol></code></pre>
+				</div>
+			</div>
+
+			<hr class="dotted">
+
+			<div id="tables">
+				<h5>Tables</h5>
+				<p>Be sure to use properly formed table markup with <code>&lt;thead&gt;</code> and <code>&lt;tbody&gt;</code> when building a table.</p>
+				<br>
+				<div class="example">
+					<table class="width-full">
+						<thead>
+							<tr>
+								<th>ID</th>
+								<th>Email</th>
+								<th>Username</th>
+								<th>Status</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>1</td>
+								<td>johndoe@email</td>
+								<td>John_04554</td>
+								<td>Online</td>
+							</tr>
+							<tr>
+								<td>2</td>
+								<td>isabela@email</td>
+								<td>prety_isabela</td>
+								<td>Online</td>
+							</tr>
+							<tr>
+								<td>3</td>
+								<td>maxton@email</td>
+								<td>maxtoons</td>
+								<td>Offline</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+			<hr class="dotted">
+
+			<div id="code">
+				<h5>Code</h5>
+				<p>Code styling is kept basic – just wrap anything in a <code>&lt;code&gt;</code> and it will appear like <code>this</code>. For blocks of code, wrap a <code>&lt;code&gt;</code> with a <code>&lt;pre&gt;</code>. You can add <code>&lt;ol&gt;&lt;li&gt; ... &lt;/li&gt;&lt;/ol&gt;</code> for option want to show line number.</p>
+				<br>
+				<div class="example">
+					<div class="flex responsive">
+						<pre class="col"><code><ol><li>&lt;!-- With line numbers --&gt;</li><li></li><li>puts "hello world"</li><li>print("hello world")</li></ol></code></pre>
+						<div class="col-margin"></div>
+						<pre class="col"><code>&lt;!-- Without line numbers --&gt;<br><br>puts "hello world"<br>print("hello world")</code></pre>
+					</div>
+				</div>
+				<div class="code">
+					<pre><code><ol><li>&lt;!-- With line numbers --&gt;</li><li>&lt;pre&gt;&lt;code&gt;&lt;ol&gt;&lt;li&gt; Your text here ... &lt;/li&gt;&lt;/ol&gt;&lt;/code&gt;&lt;/pre&gt;</li><li></li><li>&lt;!-- Without line numbers --&gt;</li><li>&lt;pre&gt;&lt;code&gt; Your text here ... &lt;/code&gt;&lt;/pre&gt;</li><li></li><li>&lt;!-- Remember every whitespace and break will be preserved in a &lt;pre&gt;, including indentation in your code --&gt;</li></ol></code></pre>
+				</div>
+			</div>
+
+			<hr class="dotted">
+
+			<!-- BREAKPOINTS -->
+			<div id="breakpoints">
+				<h5>Breakpoints & Media Queries</h5>
+				<div class="code">
+					<pre><code><ol><li>$breakpoints: (</li><li>    'mobile': 400px,</li><li>    'phablet': 600px,</li><li>    'tablet': 800px,</li><li>    'laptop': 1000px,</li><li>    'monitor': 1200px</li><li>);</li><li></li><li>@media (max-width: 400px) { ... }</li><li>@media (max-width: 600px) { ... }</li><li>@media (max-width: 800px) { ... }</li><li>@media (max-width: 1000px) { ... }</li><li>@media (max-width: 1200px) { ... }</li></ol></code></pre>
+				</div>
+			</div>
+
+			<hr class="dotted">
+
+			<!-- CONTAINER -->
+			<div id="container">
+				<h5>Container</h5>
+				<p>In container class <code>container</code> by default any size will be centered with <code>margin: 0 auto;</code> as we see on this web.</p>
+				<div class="code">
+					<pre><code><ol><li>&lt;!-- Default padding: 0 15px --&gt;</li><li>&lt;div class="container"&gt;...&lt;/div&gt;</li><li></li><li>&lt;!-- Container size --&gt;</li><li>&lt;div class="container container-mobile"&gt;...&lt;/div&gt;	&lt;!-- 400px --&gt;</li><li>&lt;div class="container container-phablet"&gt;...&lt;/div&gt;	&lt;!-- 600px --&gt;</li><li>&lt;div class="container container-tablet"&gt;...&lt;/div&gt;	&lt;!-- 800px --&gt;</li><li>&lt;div class="container container-laptop"&gt;...&lt;/div&gt;	&lt;!-- 1000px --&gt;</li><li>&lt;div class="container container-laptop"&gt;...&lt;/div&gt;	&lt;!-- 1200px --&gt;</li></ol></code></pre>
+				</div>
+			</div>
+
+			<hr class="dotted">
+
+			<div id="utilies">
+				<h5>Utilites</h5>
+				<p>DezUI provides some basic utility classes to speed up development</p>
+				<ul>
+					<li><code>text-color-primary | black | white</code> - Text color.</li>
+					<li><code>bg-color-primary | black | white</code> - Background color.</li>
+					<li><code>dm-serif</code> - <span class="dm-serif">DM Serif Display</span> font family.</li>
+					<li><code>raleway</code> - Raleway font family.</li>
+					<li><code>source-code-pro</code> - <span class="source-code-pro">Source Code Pro</span> font family.</li>
+					<!-- <li><code>text-color</code> - Color of text</li> -->
+					<!-- <li><code>bg-color</code> - Background color</li> -->
+					<li><code>align-items-[All property values]</code></li>
+					<li><code>text-align-[All property values]</code></li>
+					<li><code>justify-content-[All property values]</code></li>
+					<li><code>dotted</code> - for dotted style &lt;hr&gt;</li>
+					<li><code>hero</code> - Give padding: 50px 0;</li>
+					<li><code>hero hero-full</code> - Give padding: 50px 0px; and height: 100vh;</li>
+					<li><code>width-[breakpoint properties] | full</code></li>
+				</ul>
+			</div>
+
+			<div class="hero"><p class="text-align-center"><a href="#">Back to Top</a></p></div>
+
+		</section>
+	</main>
+
+
+
+
+
+	<footer class="col">
+		<nav class="container flex column">
+			<section class="navbar-section wrap">
+				<div class=""><a href="/docs">Docs</a></div>
+				<div class=""><a href="/contributor">Contribute</a></div>
+				<div class=""><a href="https://github.com/DezUI/">Github</a></div>
+				<div class=""><a href="https://twitter.com/dezuhan/">Twitter</a></div>
+			</section>
+			<section class="info-section">
+				<p>Design and built with &#9749; + &#128187; and Proudly made in <a href="https://indonesia.go.id/" title="Indonesia">Indonesia</a> by <a href="https://dezuhan.carrd.co">Dzuhan Ramadhan</a>. Under <a href="https://github.com/dezui/tree/stable/LICENSE">MIT License</a></p><br>
+			</section>
+		</nav>
+	</footer>
+
+	<script src="/contributor/index.js"></script>
+
+</body>
+
+</html>

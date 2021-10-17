@@ -1,0 +1,14 @@
+
+[
+	{
+		"version": "1.0.0",
+		"status": "stable",
+		"release-date": {
+			"dd": 18,
+			"mm": 10,
+			"yyyyy": 2021
+		},
+		"updates": [""],
+		"notes": [""]
+	}
+]

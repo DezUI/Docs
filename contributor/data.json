@@ -1,0 +1,19 @@
+{
+	"developers": [
+		{
+			"name": "dezuhan",
+			"role": "developer",
+			"status": "active",
+			"date": {
+				"day": "18",
+				"month": "oct",
+				"year": "2021"
+			},
+			"homepage": "https://dezuhan.github.io",
+			"logo": "/contributor/assets/logo/dezuhan.png"
+		}
+	],
+	"sponsors": [
+
+	]
+}

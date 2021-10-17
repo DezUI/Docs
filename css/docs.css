@@ -1,0 +1,46 @@
+section#intro {
+  display: flex;
+  height: 75vh;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center;
+}
+section#intro .overview-title {
+  margin-bottom: 2.5rem;
+}
+
+#grids .example {
+  grid-gap: 10px;
+}
+#grids .example div {
+  grid-gap: 10px;
+}
+#grids .example div .grid-example {
+  padding: 5px !important;
+  text-align: center;
+  border: 1px solid #252336;
+  font-size: 0.7rem;
+}
+
+#thanks-for .sponsors {
+  text-align: center;
+}
+#thanks-for .sponsors .list-contributors {
+  display: block;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+#thanks-for .sponsors .list-contributors .contributor {
+  display: inline-block;
+  margin: 1rem;
+  min-height: 80px;
+  max-height: 80px;
+  min-width: 80px;
+  max-width: 80px;
+}
+#thanks-for .sponsors .list-contributors .contributor a img {
+  min-width: 80px;
+  min-height: 80px;
+  max-width: 80px;
+  max-height: 80px;
+}
