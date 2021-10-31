@@ -1,0 +1,21 @@
+<body class="flex column" style="min-height: 100vh;">
+	<header class="col"></header>
+
+	<main class="hero col-10">
+		<div class="container flex justify-content-center" style="margin: auto;">
+			<div class="card">
+				<h3 class="text-align-center">Login</h3>
+				<form action="">
+					<input type="text" placeholder="Email / Username">
+					<input type="password" placeholder="Password">
+					<div class="col text-align-right">
+						<a href="#">Reset password</a>
+					</div>
+					<input type="submit" value="Login">
+				</form>
+			</div>
+		</div>
+	</main>
+
+	<footer class="col"></footer>
+</body>

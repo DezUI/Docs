@@ -18,47 +18,34 @@
 	<link rel="stylesheet" href="https://ghcdn.rawgit.org/dezui/DezUI/stable/css/core.css">
 	<link rel="stylesheet" href="/css/core.css">
 	<link rel="icon" href="/assets/main.svg">
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="/javascripts/jquery.js"></script>
+	<script>
+		$(function(){
+			$("header").load("/assets/navbar/header.html"); 
+			$("footer").load("/assets/navbar/footer.html"); 
+		});
+	</script>
 </head>
 
 <body class="flex column vh100">
-	<header class="col">
-		<nav class="container">
-			<section class="navbar-section">
-				<a class="navbar-logo" href="/"><img src="../assets/main.svg" alt="">DezUI</a>
-			</section>
-			<section class="navbar-section"></section>
-			<section class="navbar-section">
-				<a href="https://github.com/DezUI/DezUI/stargazers" target="_blank"><img src="https://img.shields.io/github/stars/dezui/dezui?style=social" alt=""></a>
-				<a class="navbar-logo" href="https://github.com/dezui"><img src="/assets/github.svg" alt="Github"></a>
-			</section>
-		</nav>
-	</header>
+	<header class="col"></header>
 
 	<main class="col-10 flex">
 		<div class="col"></div>
 		<section id="intro" class="container">
 			<div>
-				<h4 class="overview-title">Lightweight, Minimalist & Elegant Design</h4>
+				<h4 class="overview-title">Build Fast, Minimalist & Elegant Design</h4>
 				<a href="https://github.com/DezUI/DezUI" target="_blank" class="btn">Github</a>
 				<a href="/docs" class="btn">Docs</a>
+				<!-- <br><br><div><a href="/docs/unstable">Unstable</a></div> -->
 			</div>
 		</section>
 		<div class="col"></div>
 	</main>
 
-	<footer class="col">
-		<nav class="container flex column">
-			<section class="navbar-section wrap">
-				<div class=""><a href="/docs">Docs</a></div>
-				<div class=""><a href="/contributor">Contribute</a></div>
-				<div class=""><a href="https://github.com/DezUI/">Github</a></div>
-				<div class=""><a href="https://twitter.com/dezuhan/">Twitter</a></div>
-			</section>
-			<section class="info-section">
-				<p>Design and built with &#9749; + &#128187; and Proudly made in <a href="https://indonesia.go.id/" title="Indonesia">Indonesia</a> by <a href="https://dezuhan.carrd.co">Dzuhan Ramadhan</a>. Under <a href="https://github.com/dezui/tree/stable/LICENSE">MIT License</a></p><br>
-			</section>
-		</nav>
-	</footer>
+	<footer class="col"></footer>
 
 	<script src="/contributor/index.js"></script>
 	

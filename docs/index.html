@@ -1,6 +1,6 @@
 <head>
 	<script>
-		fetch("./changelog/changelog.json")
+		fetch("./releases/releases.json")
 		.then(response => {return response.json()})
 		.then(data => {
 			document.getElementById("redirect").innerHTML = `<meta http-equiv="refresh" content="0; URL=/docs/${data[0].version}" />`

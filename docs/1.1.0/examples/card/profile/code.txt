@@ -1,0 +1,18 @@
+<body class="flex column" style="min-height: 100vh !important;">
+	<header class="col"></header>
+
+	<main class="hero col-10">
+		<div class="container flex justify-content-center" style="margin: auto;">
+			<div class="card text-align-center">
+				<h3>Dezuhan</h3>
+				<p>Developer, Graphic Designer, Pixel Artist & Photographer</p>
+				<br>
+				<p>Checkout our <a href="#">Project</a></p>
+				<br>
+				<a href="#" class="btn">Hire Me</a>
+			</div>
+		</div>
+	</main>
+
+	<footer class="col"></footer>
+</body>

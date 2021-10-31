@@ -1,0 +1,13 @@
+<script>
+	fetch("/docs/changelog/changelog.json")
+	.then(response => {return response.json()})
+	.then(data => {
+		document.getElementById("back").innerHTML = `<a href="/docs/${data[0].version}/examples">Back</a>`
+	})
+</script>
+<nav class="container">
+	<section class="navbar-section">
+		<div id="back"></div>
+		<a class="" href="./code.txt">Get the Code</a>
+	</section>
+</nav>
