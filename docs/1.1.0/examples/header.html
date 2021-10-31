@@ -1,5 +1,5 @@
 <script>
-	fetch("/docs/changelog/changelog.json")
+	fetch("/docs/releases/releases.json")
 	.then(response => {return response.json()})
 	.then(data => {
 		document.getElementById("back").innerHTML = `<a href="/docs/${data[0].version}/examples">Back</a>`
