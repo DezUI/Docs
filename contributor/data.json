@@ -4,16 +4,22 @@
 			"name": "dezuhan",
 			"role": "developer",
 			"status": "active",
-			"date": {
-				"day": "18",
-				"month": "oct",
-				"year": "2021"
-			},
 			"homepage": "https://dezuhan.github.io",
 			"logo": "/contributor/assets/logo/dezuhan.png"
 		}
 	],
 	"sponsors": [
+
+	],
+	"partners": [
+		{
+			"name": "seleku",
+			"status": "active",
+			"homepage": "https://selekudev.github.io/?ref=dezui",
+			"logo": "https://selekudev.github.io/icon.png"
+		}
+	],
+	"collaborators": [
 
 	]
 }

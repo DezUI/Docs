@@ -22,25 +22,23 @@ section#intro .overview-title {
   font-size: 0.7rem;
 }
 
-#thanks-for .sponsors {
+#contributors #lists-contributors, #contributors #lists-partners, #contributors #lists-collaborators, #contributors #lists-sponsors, #contributors #lists-developers {
   text-align: center;
-}
-#thanks-for .sponsors .list-contributors {
   display: block;
   box-sizing: border-box;
   flex-wrap: wrap;
 }
-#thanks-for .sponsors .list-contributors .contributor {
+#contributors #lists-contributors .contributor, #contributors #lists-contributors .sponsor, #contributors #lists-contributors .collaborator, #contributors #lists-contributors .partner, #contributors #lists-partners .contributor, #contributors #lists-partners .sponsor, #contributors #lists-partners .collaborator, #contributors #lists-partners .partner, #contributors #lists-collaborators .contributor, #contributors #lists-collaborators .sponsor, #contributors #lists-collaborators .collaborator, #contributors #lists-collaborators .partner, #contributors #lists-sponsors .contributor, #contributors #lists-sponsors .sponsor, #contributors #lists-sponsors .collaborator, #contributors #lists-sponsors .partner, #contributors #lists-developers .contributor, #contributors #lists-developers .sponsor, #contributors #lists-developers .collaborator, #contributors #lists-developers .partner {
   display: inline-block;
   margin: 1rem;
-  min-height: 80px;
-  max-height: 80px;
-  min-width: 80px;
-  max-width: 80px;
+  min-height: 50px;
+  max-height: 50px;
+  min-width: 50px;
+  max-width: 50px;
 }
-#thanks-for .sponsors .list-contributors .contributor a img {
-  min-width: 80px;
-  min-height: 80px;
-  max-width: 80px;
-  max-height: 80px;
+#contributors #lists-contributors .contributor a img, #contributors #lists-contributors .sponsor a img, #contributors #lists-contributors .collaborator a img, #contributors #lists-contributors .partner a img, #contributors #lists-partners .contributor a img, #contributors #lists-partners .sponsor a img, #contributors #lists-partners .collaborator a img, #contributors #lists-partners .partner a img, #contributors #lists-collaborators .contributor a img, #contributors #lists-collaborators .sponsor a img, #contributors #lists-collaborators .collaborator a img, #contributors #lists-collaborators .partner a img, #contributors #lists-sponsors .contributor a img, #contributors #lists-sponsors .sponsor a img, #contributors #lists-sponsors .collaborator a img, #contributors #lists-sponsors .partner a img, #contributors #lists-developers .contributor a img, #contributors #lists-developers .sponsor a img, #contributors #lists-developers .collaborator a img, #contributors #lists-developers .partner a img {
+  min-width: 50px;
+  min-height: 50px;
+  max-width: 50px;
+  max-height: 50px;
 }
