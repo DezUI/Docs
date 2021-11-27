@@ -7,10 +7,10 @@
 
 # DezUI
 
-DezUI is a lightweight, minimalistic & elegant css framework for starting projects with a minimalist and elegant design and We focus on using CSS styles and 100% no use of JavaScript. Checkout https://github.com/dezui/dezui for documentation and details
+DezUI is a lightweight, minimalist & elegant UI to start a project with a minimalist and elegant design.
+Checkout https://dezui.netlify.app for documentation and details
 
-[![](/assets/images/dezui-web-preview.png)](https://dezui.github.io/dezui)
-[![](https://raw.githubusercontent.com/dezui/DezUI/stable/assets/images/dezui-web-preview.png)](https://dezui.github.io/dezui)
+[![](assets/images/dezui-web-preview.png)](https://dezui.github.io/dezui)
 
 ## What's in the download?
 
@@ -18,9 +18,10 @@ DezUI is a lightweight, minimalistic & elegant css framework for starting projec
 DezUI/
 ├── index.html
 ├── css/
-│   └── core.css
+│   ├── core.css
+│   └── core.min.css
 └── assets/
-	└── dotted.svg
+    └── dotted.svg
 ```
 
 ## Getting started
@@ -28,16 +29,21 @@ DezUI/
 ### Install manual
 [Download the zip](https://github.com/dezui/dezui/archive/refs/heads/stable.zip)
 ```html
-<link rel="stylesheet" href="./css/core.css">
+<link rel="stylesheet" href="/css/core.css">
+<link rel="stylesheet" href="/css/core.min.css">
 ```
-### Clone the repo:
+### Clone the repo
 ```bash
 git clone https://github.com/dezui/dezui.git
 ```
+### Install package
+```bash
+npm i dezui@latest
+```
 ### Install from CDN
-##### CDN RawGit
 ```html
-<link rel="stylesheet" href="https://ghcdn.rawgit.org/dezui/dezui/stable/css/core.css">
+<link rel="stylesheet" href="https://unpkg.com/dezui@latest">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/dezui@latest">
 ```
 
 ## License
@@ -46,4 +52,4 @@ All parts of DezUI are free to use and abuse under the [open-source MIT license]
 
 ## Contribution
 
-We are open and very appreciative of anyone who would like to contribute to the development either by [donating](https://buymeacoffee.com/dezuhan) or taking the time to help [develop](https://github.com/dezui/dezui/fork) this wonderful framework.
+We are open and very appreciative of anyone who would like to contribute to the development either by donating or taking the time to help develop this wonderful framework.
