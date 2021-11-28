@@ -4,7 +4,7 @@
 	.then(response => {return response.json()})
 	.then(data => {
 		document.getElementById("examples-page").innerHTML = `<a href="/docs/${data[0].version}/examples">Examples</a>`
-		document.getElementById("versions").innerHTML = `<p>Lastest <span class="text-info">@${data[0].version}</span></a>`
+		document.getElementById("versions").innerHTML = `<p>Latest <span class="text-info">@${data[0].version}</span></a>`
 	})
 </script>
 <nav class="container flex column">
