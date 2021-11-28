@@ -1,6 +1,6 @@
 
 <script>
-	fetch("/docs/releases/releases.json")
+	fetch("/docs/changelog/releases.json")
 	.then(response => {return response.json()})
 	.then(data => {
 		document.getElementById("examples-page").innerHTML = `<a href="/docs/${data[0].version}/examples">Examples</a>`
