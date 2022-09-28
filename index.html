@@ -1,54 +1,40 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html lang="en">
 <head>
-	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="DezUI is a build fast, minimalist & elegant UI to start a project with a minimalist and elegant design.">
 	<meta name="keywords" content="CSS, Framework, Minimalist, Elegant, Design, SCSS">
 	<meta name="author" content="Dzuhan Ramadhan">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta property="og:description" content="DezUI is a build fast, minimalistic & elegant css framework for starting projects with a minimalist and elegant design.">
-	<meta property="og:image" content="/assets/main-square.png">
-	
+	<meta property="og:description" content="DezUI is a build fast, minimalist & elegant UI to start a project with a minimalist and elegant design.">
+	<meta property="og:image" content="/assets/images/profile.png">
+	<title>Dezuhan</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dezui/dezui/css/core.min.css">
+	<link rel="stylesheet" href="/assets/css/core.css">
+	<link rel="icon" href="/assets/main-square.png">
 
-	<title>DezUI - CSS Frameworks</title>
-
-
-	<link rel="stylesheet" href="/css/dezui.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/dezui/dezui/css/core.css">
-	<link rel="stylesheet" href="/css/core.css">
-	<link rel="icon" href="/assets/main.svg">
-
-	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-	<script src="/javascripts/jquery.js"></script>
-	<script>
-		$(function(){
-			$("header").load("/assets/navbar/header.html"); 
-			$("footer").load("/assets/navbar/footer.html"); 
-		});
-	</script>
 </head>
+<body style="margin: 0 !important; padding: 0 !important;">
 
-<body class="flex column vh100">
-	<header class="col"></header>
+	<div class="hero hero-full flex justify-content-center" style="box-sizing: border-box;">
+		<div class="container">
+			<h6 class="text-align-center">The DezUI web has moved</h6>
+			<p class="text-align-center"><strong>You will be automatically transferred to <a href="https://dezui.vercel.app">dezui.vercel.app</a> in <span id="countdown">5</span> second.</strong></p>
+		</div>
+	</div>
 
-	<main class="col-10 flex">
-		<div class="col"></div>
-		<section id="intro" class="container">
-			<div>
-				<h4 class="overview-title">Build Fast, Minimalist & Elegant Design</h4>
-				<a href="https://github.com/DezUI/DezUI" target="_blank" class="btn">Github</a>
-				<a href="/docs" class="btn">Docs</a>
-				<!-- <br><br><div><a href="/docs/unstable">Unstable</a></div> -->
-			</div>
-		</section>
-		<div class="col"></div>
-	</main>
+	<script>
+		var timeleft = 5;
+		var downloadTimer = setInterval(function(){
+			if(timeleft <= 0){
+				clearInterval(downloadTimer);
+				window.location.replace("https://dezui.vercel.app");
+			} else {
+				document.getElementById("countdown").innerHTML = timeleft;
+			}
+			timeleft -= 1;
+		}, 1000);
 
-	<footer class="col"></footer>
+	</script>
 
-	<script src="/contributor/index.js"></script>
-	
 </body>
-
 </html>
